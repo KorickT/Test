@@ -18,7 +18,7 @@ const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const navigation = useNavigation(); // Get the navigation object
+  const navigation = useNavigation(); 
 
   const handleLoginRegister = async () => {
     if (isLogin) {
